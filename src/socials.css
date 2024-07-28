@@ -1,0 +1,23 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* space between icons */
+    padding: 20px;
+    padding-bottom: 38px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 14px;
+    transition: transform 0.3s; /* Smooth scaling on hover */
+    background-color: white;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}

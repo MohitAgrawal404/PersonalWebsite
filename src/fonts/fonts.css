@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'welcome';
+    src: url('./MarlinSoftSQ-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face{
+  font-family: 'title';
+    src: url('./MarlinSoftSQ-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

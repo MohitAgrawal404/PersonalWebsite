@@ -1,0 +1,52 @@
+:root {
+    --c-primary: rgb(209, 197, 173);
+    --c-secondary: rgba(200,200,200,.85);
+    --c-tertiary: hsl(88, 25%, 11%, .5);
+    
+    --v-space: 5rem;
+    --canvas-height: 80vh;
+    --f-weight: 600;
+    --border-radius: min(10vw, var(--v-space));
+  }
+
+
+
+.intro-p{
+    margin: var(--v-space) 0;
+    width: 80%;
+    max-width: 400px;
+    align-self: end;
+}
+
+
+@media only screen and (max-width: 834px) {
+    :root {
+        --v-space: 4rem;
+    }
+    html {
+        font-size: 14px;
+    }
+    main {
+        grid-template-columns: 1fr 8fr 2fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    :root {
+        --v-space: 3rem;
+    }
+    html {
+        font-size: 12px;
+    }
+    main {
+        grid-template-columns: 1fr 10fr 0fr 1fr;
+    }
+    .timeline-entry {
+        grid-template-columns: 1fr 5fr 5fr 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas:
+        ". hr hr ."
+        ". co co ."
+        ". description description .";
+    }
+}
